@@ -356,3 +356,80 @@ The Birch and Swinnerton-Dyer (BSD) Conjecture connects the rank of an elliptic 
 
 ### **Conclusion**
 While this program doesn’t directly solve the Birch and Swinnerton-Dyer Conjecture, it provides tools to explore rational points, a key part of understanding elliptic curves. Numerical exploration like this complements theoretical approaches, contributing to ongoing research in this profound area of mathematics.
+
+
+
+
+## Run
+
+Enter coefficients for elliptic curve y^2 = x^3 + ax + b
+a: -5
+b: 5
+Enter step size (e.g., 1 or 0.1): .5
+
+Elliptic Curve: y^2 = x^3 + -5.00x + 5.00
+
+Finding rational points...
+Point: (-1.00, 3.00)
+Point: (-1.00, -3.00)
+Point: (1.00, 1.00)
+Point: (1.00, -1.00)
+Point: (4.00, 7.00)
+Point: (4.00, -7.00)
+
+ASCII Plot of the curve:
+                         |                        
+                         |        *               
+                         |                        
+                         |       *                
+                         |                        
+                         |       *                
+                         |                        
+                         |      *                 
+                         |                        
+                         |      *                 
+                         |                        
+                         |     *                  
+                         |                        
+                         |     *                  
+                         |                        
+                         |    *                   
+                         |    *                   
+                         |                        
+                         |   *                    
+                         |   *                    
+                         |                        
+                         |  *                     
+                       ***  *                     
+                         ***                      
+                       * |**                      
+-------------------------+------------------------
+                       * |**                      
+                         ***                      
+                       ***  *                     
+                         |  *                     
+                         |                        
+                         |   *                    
+                         |   *                    
+                         |                        
+                         |    *                   
+                         |    *                   
+                         |                        
+                         |     *                  
+                         |                        
+                         |     *                  
+                         |                        
+                         |      *                 
+                         |                        
+                         |      *                 
+                         |                        
+                         |       *                
+                         |                        
+                         |       *                
+                         |                        
+                         |        *               
+
+
+...Program finished with exit code 0
+Press ENTER to exit console.
+
