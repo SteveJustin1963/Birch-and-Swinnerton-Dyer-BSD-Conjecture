@@ -105,17 +105,19 @@ Step size: 0.5
 
 2. **Rational Points**:
    The program calculates and lists valid points:
+
    ```
    Point: (-24.50, 34.94)
    Point: (-24.50, -34.94)
    Point: (-24.00, 34.66)
    Point: (-24.00, -34.66)
-   ...
+   
    ```
 
-3. **ASCII Plot**:
+4. **ASCII Plot**:
    The graph might look like this:
-   ```
+
+```
                         *                                                    
                         |                                                    
                         |                                                    
@@ -130,7 +132,7 @@ Step size: 0.5
                         |                                                    
                         |                                                    
                         *                                                    
-   ```
+```
 
  
 
