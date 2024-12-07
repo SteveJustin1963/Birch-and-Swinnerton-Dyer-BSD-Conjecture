@@ -280,11 +280,11 @@ Here’s the breakdown of the significance and how it ties to conjectures:
 
 ### **1. What Are Elliptic Curves?**
 Elliptic curves are equations of the form:
-
+```
 \[
 y^2 = x^3 + ax + b
 \]
-
+```
 They are widely studied in mathematics because:
 - They have deep connections to algebraic geometry, number theory, and cryptography.
 - They are central to solving Diophantine equations, which involve finding integer or rational solutions to polynomial equations.
@@ -362,6 +362,7 @@ While this program doesn’t directly solve the Birch and Swinnerton-Dyer Conjec
 
 ## Run
 
+```
 Enter coefficients for elliptic curve y^2 = x^3 + ax + b
 a: -5
 b: 5
@@ -432,4 +433,4 @@ ASCII Plot of the curve:
 
 ...Program finished with exit code 0
 Press ENTER to exit console.
-
+```
