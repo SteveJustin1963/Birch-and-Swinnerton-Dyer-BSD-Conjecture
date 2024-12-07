@@ -2,7 +2,7 @@
 
 Creating a MATLAB program to compute the rank of an elliptic curve and verify the Birch and Swinnerton-Dyer conjecture involves using tools for elliptic curve arithmetic, computing L(E,s), and analyzing its behavior around s=1. MATLAB itself does not natively support elliptic curve computations, but we can integrate symbolic calculations and algorithms to approximate the conjecture for specific curves.
 
-# MATLAB Implementation of Birch and Swinnerton-Dyer Conjecture Verification
+# MATLAB 
 
 This document provides an implementation for computing the rank of an elliptic curve and verifying aspects of the Birch and Swinnerton-Dyer conjecture using MATLAB. Note that this is an educational implementation with some simplifications.
 
