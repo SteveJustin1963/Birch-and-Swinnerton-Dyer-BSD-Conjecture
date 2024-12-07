@@ -14,7 +14,7 @@ The program begins by asking the user to input:
 - \( a \): Coefficient of \( x \) in the curve equation.
 - \( b \): Constant term in the curve equation.
 - Step size: A floating-point number that determines how finely the program steps through \( x \) values.
-
+```
 For example:
 - \( a = 1.25 \), \( b = -0.75 \), \( \text{step size} = 0.5 \).
 
@@ -23,7 +23,7 @@ The curve equation becomes:
 y^2 = x^3 + 1.25x - 0.75
 \]
 The program will check \( x \) values like \(-25.0, -24.5, -24.0, \dots, 25.0\).
-
+```
 ---
 
 #### **2. Rational Point Finder**
@@ -132,7 +132,7 @@ Step size: 0.5
                         *                                                    
    ```
 
----
+ 
 
 ### **Key Components of the Code**
 
@@ -153,7 +153,7 @@ Handles:
   - `-` for the horizontal axis.
   - `+` for the origin.
 
----
+ 
 
 
 ```
@@ -268,8 +268,8 @@ void plot_curve_ascii(double a, double b, double step) {
         printf("\n");
     }
 }
-
 ```
+
 
 ## Significance
 The elliptic curve calculations in this code are significant because they relate to mathematical concepts and problems in number theory, particularly conjectures like the **Birch and Swinnerton-Dyer Conjecture** and the exploration of **rational points on elliptic curves**.
@@ -432,5 +432,8 @@ ASCII Plot of the curve:
 
 
 ...Program finished with exit code 0
+
 Press ENTER to exit console.
 ```
+
+
